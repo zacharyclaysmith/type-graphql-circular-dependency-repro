@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "type-graphql-circular-dependency-repro",
   "version": "1.0.0",
   "main": "index.ts",
   "repository": "git@github.com:zacharyclaysmith/type-graphql-circular-dependency-repro.git",

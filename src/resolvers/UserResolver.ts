@@ -3,5 +3,9 @@ import { User } from "../entities/User";
 
 @Resolver(User)
 export class UserResolver {
-	// NOTE: empty resolver as issue is a start-time error
+  @Query((returns) => User)
+  async currentUser() {
+		// HACK: fake resolver function as that's not the point of this reproduction
+    return {} as User;
+  }
 }
