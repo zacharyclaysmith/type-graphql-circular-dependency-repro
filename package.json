@@ -6,7 +6,6 @@
   "author": "Zach Smith <Zachary.Clay.Smith@gmail.com>",
   "license": "MIT",
   "private": true,
-  "type": "module",
   "scripts": {
     "compile": "npm run clean && tsc",
     "clean": "rm -rf dist && rm -rf tsconfig.tsbuildinfo",
